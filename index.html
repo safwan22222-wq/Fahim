@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etc Organic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to EtC Organic</h1>
+    </header>
+
+    <section class="product-container">
+        <div class="product" onclick="showBenefits('Brightening')">
+            <img src="images/IMG_5448.JPG" alt="Aloe Vera + Goat Milk Soap">
+            <h3>Aloe Vera + Goat Milk Soap</h3>
+        </div>
+        <div class="product" onclick="showBenefits('Bright')">
+            <img src="images/IMG_5476.JPG" alt="Vegetable Cream">
+            <h3>Vegetable Cream</h3>
+        </div>
+        <div class="product" onclick="showBenefits('tulsi')">
+            <img src="images/IMG_5451.JPG" alt="Neem + Tulsi Soap">
+            <h3>Neem + Tulsi Soap</h3>
+        </div>
+        <div class="product" onclick="showBenefits('alergy')">
+            <img src="images/IMG_5450.JPG" alt="Neem Cure">
+            <h3>Neem Cure</h3>
+        </div>
+        <!-- আরও প্রোডাক্ট যোগ করতে পারবেন -->
+    </section>
+
+    <div id="benefits" class="hidden">
+        <h2>পণ্যের উপকারিতা</h2>
+        <p id="benefit-text"></p>
+        <button onclick="hideBenefits()">Close</button>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="whatsapp-button">WhatsApp এ যোগাযোগ করুন</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
